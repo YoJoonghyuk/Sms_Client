@@ -1,0 +1,4 @@
+address = "localhost:4010"
+username = "testuser"
+password = "testpassword"
+use_ssl = false 
