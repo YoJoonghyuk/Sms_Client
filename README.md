@@ -10,13 +10,18 @@
 Создайте файл `config.toml` в корневой директории проекта. Пример в файле `config.toml`
 
 ## Запуск
-python sms_client.py --config config.toml --sender 1234567890 --recipient 0987654321 --message "Тестовое сообщение"
+Запустите скрипт client.py с необходимыми аргументами: python sms_client.py --config config.toml --sender 1234567890 --recipient 0987654321 --message "Тестовое сообщение"
 
 Аргументы командной строки:
-1. --config: Путь к файлу конфигурации TOML.
-2. --sender: Номер телефона отправителя.
-3. --recipient: Номер телефона получателя.
-4. --message: Текст SMS-сообщения.
+--config: Путь к файлу конфигурации TOML.
+--sender: Номер телефона отправителя.
+--recipient: Номер телефона получателя.
+--message: Текст SMS-сообщения.
 
 Логи записываются в файл sms_client.log.
 
+## Структура проекта
+sms_client.py: Основной файл скрипта.
+config.toml: Пример файла конфигурации.
+sms_client.log: Файл логов.
+README.md: Этот файл.
