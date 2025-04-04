@@ -21,7 +21,7 @@
 Логи записываются в файл sms_client.log.
 
 ## Структура проекта
-sms_client.py: Основной файл скрипта.
-config.toml: Пример файла конфигурации.
-sms_client.log: Файл логов.
-README.md: Этот файл.
+1. sms_client.py: Основной файл скрипта.
+2. config.toml: Пример файла конфигурации.
+3. sms_client.log: Файл логов.
+4. README.md: Этот файл.
